@@ -7,6 +7,8 @@ Note: En fait on n'a pas amené de gateau.
 Explications de David
 un résumé de la structure du talks
 
+quels bilan tirer de la pratique. Gains mesurables?
+
 1. notre expérience
 2. un sondage ms (qui confirme un peu notre expérience)
 3. les études académiques.
@@ -48,8 +50,9 @@ La technologie que nous voulions explorer était javascript avec canvas. Nous av
 
 - projet personnel: pas de délai, pas d'obligation de résultat.
 - deux heures par semaine.
-- A la fin de chaque session, on fixe les buts de la session suivante, qu'on choisit parfois d'ignorer.
 
+Note:
+A la fin de chaque session, on fixe les buts de la session suivante, qu'on choisit parfois d'ignorer
 
 --
 
@@ -173,13 +176,14 @@ Nous faisons des sessions de deux heures. Est-ce que nous aurions la force de fa
 
 --
 
-**expérience étonement réussie**
+**expérience étonnamment réussie**
 
 Note:
 
 we each have our keyboard (link to "making software" passage)
 aussi efficace que le physical pair programming.
 chacun à son écran, on est confortable, plus facile de passer de l'un à l'autre.
+difficulté du setup en pp physique (gestion de l'espace). perte de contrôle du navigateur.
 pas faire dans un bar
 chacun peut chercher de son côté.
 
@@ -344,6 +348,10 @@ lanced, it could be that one partner become obsolete in the process.”
 <p class="fragment">10. Same programming skills</p>
 <p class="fragment">10. Collaborative</p>
 <p class="fragment">10. Work Well Together</p>
+
+
+
+
 --
 “Communication, communication, communication.” (this is MS after all ; ))
 --
@@ -354,6 +362,15 @@ An ideal team “consists of easy-going people who want to listen and share idea
 “cooperative personalities, they work well together, rather than trying to compete with one another.”
 --
 “permissive to mistakes.”
+--
+## seven habits of effective pair programmers (Pair Programming Illuminated)
+<p class="fragment">take breaks</p>
+<p class="fragment">practice humility</p>
+<p class="fragment">be confident / be receptive</p>
+<p class="fragment">communicate</p>
+<p class="fragment">listen</p>
+<p class="fragment">be a team player</p>
+<p class="fragment">Hone the balance between compromise and standing firm</p>
 --
 ## oui mais ça reste de la science molle tous ça!
 <br>
@@ -376,7 +393,7 @@ navigator observes the work of the driver. Navigator should get typos but also s
 Both are in constant brainstorm and chatting partners.
 
 --
-### 2. L'histoire?
+### 2. La préhistoire
 
 <p class="fragment">**Fred Brooks**, l'auteur de "Mythical man month" évoque un projet qu'il a réalisé en pair à l'époque de ses études: "we produced 1500 lines of defect free code; it ran correctly the first time"</p>
 
@@ -384,10 +401,13 @@ Both are in constant brainstorm and chatting partners.
 
 <p class="fragment">**années 90:** un papier de recherche de Bell Labs "Developing in pairs": "Some problems are bigger than any one individual"</p>
 
---
-### 2. L'histoire?
+Note:
+Constantine, human centered computing. structured design. cohesion coupling
 
-- **Kent Beck** rend la pratique visible avec XP.
+--
+### 2. L'histoire
+
+- **Kent Beck** popularise la pratique: Extreme Programming.
 
 --
 
@@ -470,7 +490,7 @@ Note: pingpong tests.
 --
 **coordination**
 <p class="fragment">solution:</p>
-<p class="fragment">meeting quotidien pour dynamiquement créer les pairs en fonction des tâches du jour</p>
+<p class="fragment">meeting quotidien pour dynamiquement créer les paires en fonction des tâches du jour</p>
 --
 mais encore...
 <p class="fragment">"The shame of Pair Programming" (Tom Howlet)</p>
@@ -484,12 +504,12 @@ mais encore...
 --
 ## Références:
 
+- **"Pair Programming Illuminated"**, Laurie Williams, Robert Kessler, 2002
 - **"Making Software: What Really Works, and Why We Believe It"**,  Andy Oram, Greg Wilson, 2010
-- "Pair Programming: What’s in it for Me?", Andrew Begel, Nachiappan Nagappan, 2008
+- **"Pair Programming: What’s in it for Me?"**, Andrew Begel, Nachiappan Nagappan, 2008
 - http://www.pairprogramwith.me/ 
 - http://rubyrogues.com/126-rr-remote-pair-programming-with-sam-livingston-gray/
 - http://pivotallabs.com/pairing-tete-a-tete/
-- http://diaryofascrummaster.wordpress.com/2013/09/30/the-shame-of-pair-programming/
 - http://www.youtube.com/watch?v=8LUIqm6xy8A (avdi grimm pair programming session)
 
 
