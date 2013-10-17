@@ -13,10 +13,13 @@ un résumé de la structure du talks
 4. Que Faire.
 
 --
-
-## Andreas Kundig (@andreaskundig) et David Hodgetts (@David_Hodgetts)
-
 ![muppetspairprogramming](/images/muppetspairprogramming.jpg)
+
+**Andreas Kundig** @andreaskundig
+
+**David Hodgetts** @David_Hodgetts
+
+
 Note: bio respectives
 --
 
@@ -172,8 +175,6 @@ Nous faisons des sessions de deux heures. Est-ce que nous aurions la force de fa
 
 **expérience étonement réussie**
 
-![win](/images/epic_win.jpg)
-
 Note:
 
 we each have our keyboard (link to "making software" passage)
@@ -183,10 +184,27 @@ pas faire dans un bar
 chacun peut chercher de son côté.
 
 --
+## conditions et techniques (notre expérience)
 
-*notre recette technique*
+- skype voix uniquement
+- teamviewer
+- emacs (compromis key binding vim)
 
-- teamviewer + skype
+
+--
+## options techniques (téléprésence)
+
+voix ou voix + vidéo 
+
+Note: accrocher des ipads avec skype pour simuler la présence
+
+--
+
+## options techniques (coding)
+
+<p class="fragment">screen sharing (team viever, skype, etc.)</p>
+<p class="fragment">terminal sharing (screen, tmux)</p>
+<p class="fragment">funky cloud stuff (floobits, screenhero.com, cloud 9)</p>
 
 
 --
@@ -400,13 +418,23 @@ burnout of customer representative
 --
 "PP must be structured and organised (proclaimed hours for PP) (space layout, large desk, large screen, wireless mouse and kb, whiteboards, and isolation, pairs make noise)"
 --
+tête à tête (Pivotal labs)
+
+![tête à tête](/images/tete_a_tete_1.jpg)
+
+--
+
+![tête à tête](/images/tete_a_tete_2.jpg)
+
+Note: les écrans montrent la même chose. c'est une expérience.
+--
 "teams find code written in PP to be more understandable"
 --
 "some engineers feel that the benefit is real for more complex tasks. One paper noticed a quality improvement with pairs on complex tasks but no quality on simpler tasks."
 --
 ## oui mais les gains du PP, ça se mesure ?
 
-<p class="fragment">**Laurie Williams:** une pair 15 % plus lent que deux dévs seul, le code sans erreur monte de 70 à 85%. Vu que le testing et le debugging sont lourd et couteux. Le gain est évident.</p>
+<p class="fragment">**Laurie Williams:** une pair 15 % plus lent que deux dévs seul, le code sans erreur monte de 70 à 85%. Vu que le testing et le debugging sont lourd et coûteux. Le gain est évident.</p>
 
 <p class="fragment">D'autres études montrent des gains certains dans les phases de Design, et le travail sur les parties complexes.</p>
 
@@ -418,11 +446,10 @@ restons méfiant sur ces études. Difficile de mesurer le code.
 ## en résumé
 
 <p class="fragment">pas de gain de temps</p>
-<p class="fragment">mais gain de qualité du code</p>
-<p class="fragment">et réduction des risques</p>
-<p class="fragment">et cycle plus rapide</p>
-<p class="fragment">et esprit d'équipe</p>
-<p class="fragment">"you cannot expect faster and better and cheaper."</p>
+<p class="fragment">gain de qualité du code</p>
+<p class="fragment">réduction des risques</p>
+<p class="fragment">cycle plus rapide</p>
+<p class="fragment">motivation et entretien de l'esprit d'équipe</p>
 --
 
 ## malgré ces avantage, l'adoption reste basse
@@ -431,18 +458,27 @@ restons méfiant sur ces études. Difficile de mesurer le code.
 <p class="fragment">raisons écononomiques (ça coûte le double)</p>
 <p class="fragment">coordination</p>
 --
-habitudes du solo programming
+**habitudes du solo programming**
 <p class="fragment">solution:</p>
 <p class="fragment">coding dojo, code retreat, petit projet pilote</p>
+
+Note: pingpong tests.
 --
-raisons écononomiques
+**raisons écononomiques**
 <p class="fragment">solution:</p>
 <p class="fragment">commencer petit, gagner une meilleure compréhension de la pratique, projet pilote</p>
 --
-coordination
+**coordination**
 <p class="fragment">solution:</p>
-<p class="fragment">utiliser les scrum meeting pour dynamiquement créer les pairs en fonction des tâches du jour</p>
+<p class="fragment">meeting quotidien pour dynamiquement créer les pairs en fonction des tâches du jour</p>
 --
+mais encore...
+<p class="fragment">"The shame of Pair Programming" (Tom Howlet)</p>
+<p class="fragment">To pair requires vulnerability. It means sharing all that you know and all that you don’t know. This is hard for us</p>
+<p class="fragment">it’s hard. Pairing well takes empathy, empathy evaporates shame, allowing courage. As Brené Brown says “Vulnerability is the birthplace of Innovation, Creativity and Change”</p>
+<p class="fragment">Réussir une expérience de PP demande une structure où les devs se sentent confortable</p>
+--
+
 # conclusion
 ![dilbert](/images/dilbert-xp.gif)
 --
@@ -451,6 +487,10 @@ coordination
 - **"Making Software: What Really Works, and Why We Believe It"**,  Andy Oram, Greg Wilson, 2010
 - "Pair Programming: What’s in it for Me?", Andrew Begel, Nachiappan Nagappan, 2008
 - http://www.pairprogramwith.me/ 
+- http://rubyrogues.com/126-rr-remote-pair-programming-with-sam-livingston-gray/
+- http://pivotallabs.com/pairing-tete-a-tete/
+- http://diaryofascrummaster.wordpress.com/2013/09/30/the-shame-of-pair-programming/
+- http://www.youtube.com/watch?v=8LUIqm6xy8A (avdi grimm pair programming session)
 
 
 
