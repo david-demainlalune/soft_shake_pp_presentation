@@ -1,0 +1,12 @@
+L'extreme programming
+
+projet c3 Chrysler Comprehensive Compensation System
+1994 remplacer un systeme de gestion de salaire cobol par quelque chose d'orienté objet: un programme en smalltalk 
+1996 Kent Beck reprend le projet
+Martin Fowler a travaillé dessus à temps partiel
+1997 une premiere étape est livrée presque à temps.
+Le projet a été développé selon une méthodologie que Kent Beck décrit plus tard dans son livre "Extreme Programming Explained". La méthodologie comprend des bonnes pratiques comme les itérations courtes, les tests unitaires, et aussi le pair programming. C'est le début des méthodes agiles qui sont aujourd'hui devenues tellement populaires qu'on a du mal à se souvenir d'autres méthodologies qui auraient pu exister.
+
+Peu après la première livraison du projet, le "customer representative" démissionne pour cause de burnout et n'est jamais remplacé, le projet s'enlise pendant deux ans, Chrysler décide de revenir à Cobol et de bannir l'extreme programming, avant de changer d'avis un peu plus tard.
+
+burnout of customer representative
