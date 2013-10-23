@@ -141,6 +141,7 @@ En travaillant à deux sur le même projet, nous avons quand même eu l'impressi
 <li class="fragment">Bugs plus faciles à trouver</li>
 <li class="fragment">Conception (algorithmes, architecture)</li>
 <li class="fragment">Transmission de savoir et exercice de communication</li>
+<li class="fragment">Apprendre à deux</li>
 <li class="fragment">Live code review (mieux que le rubber ducking)</li>
 <li class="fragment">Motivation++</li>
 
@@ -192,7 +193,7 @@ les options et question à se poser pour réussir le remote pp.
 
 ## options techniques (coding)
 
-<p class="fragment">Screen sharing (team viever, skype, etc.)</p>
+<p class="fragment">Screen sharing (teamviewer, skype, etc.)</p>
 <p class="fragment">Terminal sharing (screen, tmux)</p>
 <p class="fragment">Funky cloud stuff (floobits, screenhero.com, cloud 9)</p>
 
@@ -238,7 +239,7 @@ les gens pensent que c'est bien mais qu'il auront de la peine à convaincre l'or
 
 <p class="fragment">“every-one learns constantly from each other.”</p>
 --
-## le top ten 
+## le top ten des réactions positives
 <p class="fragment">1. Fewer Bugs</p>
 <p class="fragment">2. Spreads Code Understanding</p>
 <p class="fragment">3. Higher Quality Code</p>
@@ -266,7 +267,7 @@ Note:
 <p class="fragment">“if the partners‟ abilities are imbalanced, it could be that one partner become obsolete in the process.”
 </p>
 --
-## le top ten 
+## le top ten des réactions négatives
 
 <p class="fragment">1. Cost efficiency</p>
 <p class="fragment">2. Scheduling</p>
@@ -307,7 +308,7 @@ Note:
 <p class="fragment">“comfortable with people around them.”</p>
 
 --
-## le top ten
+## le top ten des qualités du bon partenaire
 
 <p class="fragment">1. Complementary Skills</p>
 <p class="fragment">2. Flexibility</p>
@@ -435,7 +436,7 @@ On a lu pour vous certain de ces papers, et c'est pas convainquant.
 ## malgré ces avantage, l'adoption reste basse
 
 <p class="fragment">Les habitudes du solo programming</p>
-<p class="fragment">Les raisons écononomiques ("ça coûte le double")</p>
+<p class="fragment">Les raisons économiques ("ça coûte le double")</p>
 <p class="fragment">Les difficultés de coordination</p>
 
 --
@@ -446,7 +447,7 @@ On a lu pour vous certain de ces papers, et c'est pas convainquant.
 Note: pingpong tests.
 --
 ## Les solutions de Williams
-**Les raisons écononomiques**
+**Les raisons économiques**
 
 <p class="fragment">Commencer petit, gagner une meilleure compréhension de la pratique, projet pilote</p>
 --
