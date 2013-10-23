@@ -97,7 +97,7 @@ Note: L'idée de gongfu.io est de se voir régulièrement pour travailler en bin
 ## Exquis
 "Cadavre exquis" pour des animations javascript.  
 Vanilla js + canvas + un peu de node.js  
-Fonctions et structure de donéés favorisé par rapport à l'orienté objet.  
+Fonctions et structures de données plutôt que de l'orienté objet.  
 
 
 Note: L'idée du projet est de faire une espèce de cadavre exquis pour des animations javascript. (montrer exquis) 
@@ -112,7 +112,7 @@ La technologie que nous voulions explorer était javascript avec canvas. Nous av
 <li class="fragment">Deux heures par semaine.</li>
 <li class="fragment">Dans un bar le plus souvent....</li>
 <li class="fragment">...avec un petit laptop.</li>
-<li class="fragment">vim, puis sublime, finalement emacs -> aprendre à faire des compromis</li>
+<li class="fragment">vim, puis sublime, finalement emacs -> apprendre à faire des compromis</li>
 <li class="fragment">En remote pour quelques mois.</li>
 
 
@@ -153,8 +153,10 @@ En travaillant à deux sur le même projet, nous avons quand même eu l'impressi
 <li class="fragment">Les bonnes pratiques ne sont pas automatiquement au rendez-vous</li>
 <li class="fragment">Toutes les tâches ne se prêtent pas au pair programming</li>
 <li class="fragment">Lâcher son partenaire en allant trop vite (in the zone alone)</li>
-<li class="fragment">Un seul committeur</li>
 <li class="fragment">Triple programming?</li>
+<li class="fragment">Un seul committeur</li>
+--
+![](images/commit_distribution.jpg)
 
 --
 
@@ -210,8 +212,8 @@ tried to sort the perceived benefits and problems
 
 --
 
-487 Sondés   
-106 Ont déja pratiqué le PP (21.7%)  
+487 sondés   
+106 ont déja pratiqué le pair programming (21.7%)  
 
 --
 
@@ -225,7 +227,7 @@ This reflects the grassroots nature of pair programming adoption at Microsoft. I
 les gens pensent que c'est bien mais qu'il auront de la peine à convaincre l'organisation.
 
 --
-## Les bénéfices
+## Réactions positives
 <p class="fragment">“greater understanding of a larger codebase across the team.”</p>
 
 <p class="fragment">“higher quality code in terms of consistency with guidelines.”</p>
@@ -252,11 +254,11 @@ Note:
 ça ressemble pas mal à notre expérience.
 
 --
-## Les problèmes
+## Réactions négatives
 
 <p class="fragment">“if I have a choice, I can employ one star programmer instead of two programmers who need to code in a pair.”</p>
 <p class="fragment">Pairing “reduces the freedom of work hours of individual contributors.” (scheduling)</p>
-<p class="fragment">“Many partnerships fail due to personality conflicts,” (personality clash) - “pairs get sick of each other.
+<p class="fragment">“Many partnerships fail due to personality conflicts,” (personality clash) - “pairs get sick of each other.”
 </p>
 <p class="fragment">“Sometimes we waste time on discussion,”
 </p>
@@ -343,19 +345,18 @@ Note:
 <p class="fragment">10. Work Well Together</p>
 --
 ## **"Pair Programming Illuminated"**, Laurie Williams, 2002  
-### seven habits of effective pair programmers (Pair Programming Illuminated)
-<p class="fragment">take breaks</p>
-<p class="fragment">practice humility</p>
-<p class="fragment">be confident / be receptive</p>
-<p class="fragment">communicate</p>
-<p class="fragment">listen</p>
-<p class="fragment">be a team player</p>
+### On peut aussi faire un effort
+<p class="fragment">Take breaks</p>
+<p class="fragment">Practice humility</p>
+<p class="fragment">Be confident / be receptive</p>
+<p class="fragment">Communicate</p>
+<p class="fragment">Listen</p>
+<p class="fragment">Be a team player</p>
 <p class="fragment">Hone the balance between compromise and standing firm</p>
---
 
 --
 ### **"Making Software: What Really Works, and Why We Believe It"**,  Andy Oram, Greg Wilson, 2010
---
+
 ### A retenir
 
 <p class="fragment">"suitable length for pairing session 1.5h to 4h (pairing can be mentally exhausting)"</p>
@@ -385,23 +386,23 @@ Note: les écrans montrent la même chose. c'est une expérience.
 ## oui mais les gains du binômage, ça se mesure?
 
 
-<p class="fragment">Une même étude, sur un projet nombre de bugs équivalent (entre dev solo et binome), alors que sur un autre projet il y en aurait 6 fois moins</p>
+<li class="fragment">Une étude examine deux projets dans l'industrie. Dans le premier, le pair programming n'a pas d'effet sur le nombre de bugs. Dans le second, le pair programming produit six fois moins de bugs.</li>
 
-<p class="fragment">39% de bugs en moins pour une autre</p>
+<li class="fragment">Une autre étude mesure une réduction de 39% du nombre de bugs.</li>
 
-<p class="fragment">D'autres études montrent des gains certains dans les phases de Design, et le travail sur les parties complexes.</p>
+<li class="fragment">D'autres encore montrent des gains certains dans les phases de Design, et le travail sur les parties complexes, mais pas pour le travail plus simple.</li>
 
-<p class="fragment">???</p>
+<li class="fragment">???</li>
 
 --
 ## Laurie Williams 1999 
 
-<li class="fragment">13 étudiants solo et 28 en binômes (avec une certaine expérience de la programmation).</li>
+<li class="fragment">39 étudiants avec une certaine expérience de la programmation, <br>répartis en 14 binômes et 13 solos.</li>
 <li class="fragment">4 travaux pratiques à réaliser.</li>
-<li class="fragment">Les pairs passent 15% de tests en plus (90% au lieu de 75%), i.e 0.1/0.25 = 40% de bugs en moins.</li>
-<li class="fragment">Les pairs rendent à temps, les solos sont parfois en retard.</li>
-<li class="fragment">Les pairs écrivent 20% de code en moins (+ de cohésion  et des classes aux responsabilités mieux définies).</li>
-<li class="fragment">Les pairs prennent 15% plus de temps (quand on multiplie par deux). Mais ce n'est pas statistiquement significatif.</li>
+<li class="fragment">Les binômes passent 15% de tests en plus (90% au lieu de 75%), <br>donc 0.1/0.25 = 40% de bugs en moins.</li>
+<li class="fragment">Les binômes rendent toujours à temps, les solos sont parfois en retard.</li>
+<li class="fragment">Les binômes écrivent 20% de code en moins (+ de cohésion  et des classes aux responsabilités mieux définies).</li>
+<li class="fragment">Les binômes prennent 15% plus de temps (quand on multiplie par deux). Mais ce n'est pas statistiquement significatif.</li>
 --
 ## Estimation du gain de productivité
 Williams combine ses résultats avec des mesures de moyennes tirées d'autres études: 
@@ -414,7 +415,7 @@ Williams combine ses résultats avec des mesures de moyennes tirées d'autres é
 <p class="fragment">Elle calcule la productivité en lignes de code correctes par heure-personne et obtient:</p>  
 
 <li class="fragment">4.3 en solo </li>
-<li class="fragment">7.4 en binome</li>
+<li class="fragment">7.4 en binôme</li>
 
 
 Note:
