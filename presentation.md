@@ -11,7 +11,7 @@ Explications de David
 
 <li class="fragment">qu'est-ce que le pair programming?</li>
 <li class="fragment">notre expérience</li>
-<li class="fragment">littérature</li>
+<li class="fragment">la littérature</li>
 
 
 Note:
@@ -19,6 +19,8 @@ Note:
 un résumé de la structure du talks
 
 finalement rien sur le remote working.
+
+Pourquoi temps de méfiance (david: expérience scrum beer)
 
 quels bilan tirer de la pratique. Gains mesurables?
 
@@ -60,20 +62,24 @@ note:
 
 ### 2. L'histoire
 
-<p class="fragment">**Kent Beck** popularise la pratique: Extreme Programming.</p>
+<p class="fragment">**Kent Beck** popularise la pratique avec les méthodologies de l'Extreme Programming...</p>
 
-<p class="fragment">**années 50: Fred Brooks**, l'auteur de "Mythical man month" évoque un projet qu'il a réalisé en pair à l'époque de ses études: "we produced 1500 lines of defect free code; it ran correctly the first time"</p>
+<p class="fragment">...la pratique est néanmoins plus ancienne:</p>
 
-<p class="fragment">**années 70: Dick Gabriel**, who conceived of Common Lisp and introduced the concepts of patterns and pattern languages in the software community, reports pair programming in the early 1970s.</p>
+<p class="fragment">Dans les années 50, **Fred Brooks**, l'auteur de "Mythical man month" évoque un projet qu'il a réalisé en pair à l'époque de ses études: "we produced 1500 lines of defect free code; it ran correctly the first time"</p>
 
-<p class="fragment">**années 80: Larry Constantine**: "the code benefited from the thinking of two bright minds and the steady dialog between two trusted programmers". On parle alors de "dynamic duos".</p>
+<p class="fragment"> Dans les années 70, **Dick Gabriel**, le concepteur de Common Lisp et "l'inventeur" des patrons de conception évoque des sessions de binomage.</p>
 
-<p class="fragment">**années 90: James Coplien**, publie dans un papier de recherche de Bell Labs "Developing in pairs": "Some problems are bigger than any one individual"</p>
+<p class="fragment">Dans les années 80, **Larry Constantine** parle de "dynamic duos".</p>
+
+<p class="fragment">Dans les années 90 **James Coplien**, publie dans un papier de recherche de Bell Labs "Developing in pairs": "Some problems are bigger than any one individual"</p>
 
 Note:
 Constantine, human centered computing. structured design. cohesion coupling
 
 Avec l'extreme programming Kent Beck formalise la démarche appliquée dans un projet qui devait remplacer une grosse application cobol par du smalltalk. Après un succès initial et de nombreuses péripéties comme le rachat de l'entreprise, le smalltalk a finalement été remplacé par du cobol.
+
+david. Je viens d'une autre métier. La pratique s'y retrouve sans le nom.
 
 --
 
@@ -89,9 +95,9 @@ Note: L'idée de gongfu.io est de se voir régulièrement pour travailler en bin
 -- 
 
 ## Exquis
-"cadavre exquis" pour des animations javascript.  
-vanilla js + canvas.  
-functions and datastructures over OOP.  
+"Cadavre exquis" pour des animations javascript.  
+Vanilla js + canvas + un peu de node.js  
+Fonctions et structure de donéés favorisé par rapport à l'orienté objet.  
 
 
 Note: L'idée du projet est de faire une espèce de cadavre exquis pour des animations javascript. (montrer exquis) 
@@ -102,11 +108,20 @@ La technologie que nous voulions explorer était javascript avec canvas. Nous av
 
 ## Cadre de l'expérience
 
-projet personnel: pas de délai, pas d'obligation de résultat.  
-deux heures par semaine.  
+<li class="fragment">Projet personnel: pas de délai, pas d'obligation de résultat.</li>
+<li class="fragment">Deux heures par semaine.</li>
+<li class="fragment">Dans un bar le plus souvent....</li>
+<li class="fragment">...avec un petit laptop.</li>
+<li class="fragment">vim, puis sublime, finalement emacs -> aprendre à faire des compromis</li>
+<li class="fragment">En remote pour quelques mois.</li>
+
+
 
 Note:
 A la fin de chaque session, on fixe les buts de la session suivante, qu'on choisit parfois d'ignorer
+Les conditions physiques, la gestion de l'espace et du bruit.
+être les deux à l'aise avec le même éditeur.
+forme d'intimité à gérer.
 
 --
 
@@ -114,41 +129,45 @@ A la fin de chaque session, on fixe les buts de la session suivante, qu'on chois
 
 cerveau + cerveau = ?
 
+![chair](/images/pair_chair.jpg)
+
 Note: 
 A priori les cerveaux ne s'additionent pas, on ne fait pas quelqu'un d'intelligent avec plusieurs imbéciles. On n'accélère pas un projet en ajoutant des développeurs et neuf femmes ne font pas un enfant en un mois.
 En travaillant à deux sur le même projet, nous avons quand même eu l'impression de disposer de davantage de ressources mentales comme la discipline, la concentration, l'imagination.
 
 -- 
 ## Aspects positifs
-<li class="fragment">plus de patience, discipline, concentration</li>
-<li class="fragment">bugs plus faciles à trouver</li>
-<li class="fragment">conception (algorithmes, architecture)</li>
-<li class="fragment">transmission de savoir et exercice de communication</li>
-<li class="fragment">live code review (better than rubber ducking)</li>
-<li class="fragment">motivation++</li>
+<li class="fragment">Plus de patience, discipline, concentration</li>
+<li class="fragment">Bugs plus faciles à trouver</li>
+<li class="fragment">Conception (algorithmes, architecture)</li>
+<li class="fragment">Transmission de savoir et exercice de communication</li>
+<li class="fragment">Live code review (mieux que le rubber ducking)</li>
+<li class="fragment">Motivation++</li>
 
 --
+## Aspects négatifs
 ![badpair](/images/spy_vs_spy.jpg)
 --
-
 ## Aspects négatifs
 
-<li class="fragment">les bonnes pratiques ne sont pas automatiquement au rendez-vous</li>
-<li class="fragment">toutes les tâches ne se prêtent pas au pair programming</li>
-<li class="fragment">lâcher son partenaire en allant trop vite (in the zone alone)</li>
-<li class="fragment">un seul committeur</li>
-<li class="fragment">triple programming?</li>
+<li class="fragment">Les bonnes pratiques ne sont pas automatiquement au rendez-vous</li>
+<li class="fragment">Toutes les tâches ne se prêtent pas au pair programming</li>
+<li class="fragment">Lâcher son partenaire en allant trop vite (in the zone alone)</li>
+<li class="fragment">Un seul committeur</li>
+<li class="fragment">Triple programming?</li>
 
 --
 
-## 9 mois en remote pair programming
+## L'expérience du remote pair programming
 
-<li class="fragment">skype voix uniquement</li>
-<li class="fragment">teamviewer</li>
-<li class="fragment">emacs (compromis key binding vim)</li>
+<li class="fragment">Skype (voix uniquement)</li>
+<li class="fragment">Teamviewer</li>
+<li class="fragment">Et le bilan est très positif</li>
+
 
 Note:
 
+bilan positif peut-être du à notre setup un peu serré d'habitude (bar + petit laptop)
 description de teamviewer (partage de la souris se fait naturellement)
 we each have our keyboard (link to "making software" passage)
 aussi efficace que le physical pair programming.
@@ -160,7 +179,9 @@ chacun peut chercher de son côté.
 
 ## options techniques (téléprésence)
 
-voix ou voix + vidéo 
+![tele presence](images/tele_presence.jpg)
+
+Voix ou voix + vidéo
 
 Note: accrocher des ipads avec skype pour simuler la présence
 les options et question à se poser pour réussir le remote pp.
@@ -169,9 +190,9 @@ les options et question à se poser pour réussir le remote pp.
 
 ## options techniques (coding)
 
-<p class="fragment">screen sharing (team viever, skype, etc.)</p>
-<p class="fragment">terminal sharing (screen, tmux)</p>
-<p class="fragment">funky cloud stuff (floobits, screenhero.com, cloud 9)</p>
+<p class="fragment">Screen sharing (team viever, skype, etc.)</p>
+<p class="fragment">Terminal sharing (screen, tmux)</p>
+<p class="fragment">Funky cloud stuff (floobits, screenhero.com, cloud 9)</p>
 
 --
 
@@ -189,22 +210,22 @@ tried to sort the perceived benefits and problems
 
 --
 
-487 sondés   
-106 ont déja pratiqué le PP (21.7%)  
+487 Sondés   
+106 Ont déja pratiqué le PP (21.7%)  
 
 --
 
-64.4%  pense que la pratique fonctionne pour eux  
-62.8%  pense que la pratique fonctionne pour leur partenaire  
-48.2%  estime que la pratique est bénéfique pour l'équipe   
-39.2%  estime que la pratique est bénéfique pour l'organisation.  
+64.4%  pense que la pratique fonctionne pour eux
+<p class="fragment">62.8%  pense que la pratique fonctionne pour leur partenaire  </p>
+<p class="fragment">48.2%  estime que la pratique est bénéfique pour l'équipe   </p>
+<p class="fragment">39.2%  estime que la pratique est bénéfique pour l'organisation.  </p>
 
 Note:
 This reflects the grassroots nature of pair programming adoption at Microsoft. Individual teams are trying out pair programming, but are finding it difficult to get management buy-in to spread the practice.
 les gens pensent que c'est bien mais qu'il auront de la peine à convaincre l'organisation.
 
 --
-## bénéfices
+## Les bénéfices
 <p class="fragment">“greater understanding of a larger codebase across the team.”</p>
 
 <p class="fragment">“higher quality code in terms of consistency with guidelines.”</p>
@@ -231,7 +252,7 @@ Note:
 ça ressemble pas mal à notre expérience.
 
 --
-## problèmes
+## Les problèmes
 
 <p class="fragment">“if I have a choice, I can employ one star programmer instead of two programmers who need to code in a pair.”</p>
 <p class="fragment">Pairing “reduces the freedom of work hours of individual contributors.” (scheduling)</p>
@@ -243,7 +264,7 @@ Note:
 <p class="fragment">“if the partners‟ abilities are imbalanced, it could be that one partner become obsolete in the process.”
 </p>
 --
-## le top ten des problèmes
+## le top ten 
 
 <p class="fragment">1. Cost efficiency</p>
 <p class="fragment">2. Scheduling</p>
@@ -284,7 +305,7 @@ Note:
 <p class="fragment">“comfortable with people around them.”</p>
 
 --
-## le top ten des qualités du bon partenaire
+## le top ten
 
 <p class="fragment">1. Complementary Skills</p>
 <p class="fragment">2. Flexibility</p>
@@ -335,7 +356,7 @@ Note:
 --
 ### **"Making Software: What Really Works, and Why We Believe It"**,  Andy Oram, Greg Wilson, 2010
 --
-### pratique rencontrée dans l'industrie
+### A retenir
 
 <p class="fragment">"suitable length for pairing session 1.5h to 4h (pairing can be mentally exhausting)"</p>
 
@@ -348,8 +369,8 @@ Note:
 <p class="fragment">"frequent switching of the keyboard helps keep both partners engaged."</p>
 
 <p class="fragment">"PP must be structured and organised (proclaimed hours for PP) (space layout, large desk, large screen, wireless mouse and kb, whiteboards, and isolation, pairs make noise)"</p>
---
-![remote](/images/remote.jpg)
+
+
 --
 tête à tête (Pivotal labs)
 
@@ -361,39 +382,39 @@ tête à tête (Pivotal labs)
 Note: les écrans montrent la même chose. c'est une expérience.
 
 --
-## oui mais les gains du PP, ça se mesure ?
+## oui mais les gains du binômage, ça se mesure?
 
 
-<p class="fragment">une même étude, sur un projet nombre de bugs équivalent (entre dev solo et binome), alors que sur un autre projet il y en aurait 6 fois moins</p>
+<p class="fragment">Une même étude, sur un projet nombre de bugs équivalent (entre dev solo et binome), alors que sur un autre projet il y en aurait 6 fois moins</p>
 
 <p class="fragment">39% de bugs en moins pour une autre</p>
 
-
-
 <p class="fragment">D'autres études montrent des gains certains dans les phases de Design, et le travail sur les parties complexes.</p>
+
+<p class="fragment">???</p>
 
 --
 ## Laurie Williams 1999 
 
-- 13 étudiants solo et 28 en binômes (avec une certaine expérience de la programmation).
-- 4 travaux pratiques.
-- les pairs passent 15% de tests en plus (90% au lieu de 75%), i.e 0.1/0.25 = 40% de bugs en moins.
-- les pairs rendent à temps, les solos sont parfois en retard.
-- les pairs écrivent 20% de code en moins (+ de cohésion  et des classes aux responsabilités mieux définies).
-- pairs prennent 15% plus de temps (quand on multiplie par deux). Mais pas statistiquement significatif.
+<li class="fragment">13 étudiants solo et 28 en binômes (avec une certaine expérience de la programmation).</li>
+<li class="fragment">4 travaux pratiques à réaliser.</li>
+<li class="fragment">Les pairs passent 15% de tests en plus (90% au lieu de 75%), i.e 0.1/0.25 = 40% de bugs en moins.</li>
+<li class="fragment">Les pairs rendent à temps, les solos sont parfois en retard.</li>
+<li class="fragment">Les pairs écrivent 20% de code en moins (+ de cohésion  et des classes aux responsabilités mieux définies).</li>
+<li class="fragment">Les pairs prennent 15% plus de temps (quand on multiplie par deux). Mais ce n'est pas statistiquement significatif.</li>
 --
 ## Estimation du gain de productivité
 Williams combine ses résultats avec des mesures de moyennes tirées d'autres études: 
 
-- 22 lignes de code écrites par heures  
-- 6 bugs pour 1000 lignes  
-- 1 semaine pour corriger un bug trouvé chez le client  
+<li class="fragment">22 lignes de code écrites par heures  </li>
+<li class="fragment">6 bugs pour 1000 lignes  </li>
+<li class="fragment">1 semaine pour corriger un bug trouvé chez le client  </li>
 
-<br>
-Elle calcule la productivité en lignes de code correctes par heure-personne et obtient   
 
-- 4.3 en solo   
-- 7.4 en binome  
+<p class="fragment">Elle calcule la productivité en lignes de code correctes par heure-personne et obtient:</p>  
+
+<li class="fragment">4.3 en solo </li>
+<li class="fragment">7.4 en binome</li>
 
 
 Note:
@@ -402,38 +423,37 @@ On a lu pour vous certain de ces papers, et c'est pas convainquant.
 
 --
 
-## en résumé
+## En résumé
 
-<p class="fragment">possible perte de productivité (on finit plus tot, sans être toujours deux fois plus rapide)</p>
-<p class="fragment">gain de qualité du code</p>
-<p class="fragment">meilleure répartition du savoir</p>
-<p class="fragment">cycle plus rapide</p>
-<p class="fragment">plus de motivation et meilleur esprit d'équipe</p>
+<p class="fragment">Gain de qualité du code</p>
+<p class="fragment">Meilleure répartition du savoir</p>
+<p class="fragment">Cycle plus rapide</p>
+<p class="fragment">Plus de motivation et meilleur esprit d'équipe</p>
 --
 
 ## malgré ces avantage, l'adoption reste basse
 
-<p class="fragment">habitudes du solo programming</p>
-<p class="fragment">raisons écononomiques ("ça coûte le double")</p>
-<p class="fragment">coordination</p>
+<p class="fragment">Les habitudes du solo programming</p>
+<p class="fragment">Les raisons écononomiques ("ça coûte le double")</p>
+<p class="fragment">Les difficultés de coordination</p>
+
 --
-**habitudes du solo programming**
-<p class="fragment">solution:</p>
+## Les solutions de Williams
+**Les habitudes du solo programming**
 <p class="fragment">coding dojo, code retreat, petit projet pilote</p>
 
 Note: pingpong tests.
 --
-**raisons écononomiques**
-<p class="fragment">solution:</p>
-<p class="fragment">commencer petit, gagner une meilleure compréhension de la pratique, projet pilote</p>
---
-**coordination**
-<p class="fragment">solution:</p>
-<p class="fragment">meeting quotidien pour dynamiquement créer les paires en fonction des tâches du jour</p>
---
+## Les solutions de Williams
+**Les raisons écononomiques**
 
-
-# conclusion
+<p class="fragment">Commencer petit, gagner une meilleure compréhension de la pratique, projet pilote</p>
+--
+## Les solutions de Williams
+**Les difficultés de coordination**
+<p class="fragment">Meeting quotidien pour dynamiquement créer les paires en fonction des tâches du jour</p>
+--
+# Conclusion
 
 --
 ## Références:
