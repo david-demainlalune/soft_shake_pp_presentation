@@ -1,0 +1,115 @@
+* cerveau + cerveau = ?
+
+Note: 
+A priori les cerveaux ne s'additionent pas, on ne fait pas quelqu'un d'intelligent avec plusieurs imbéciles. On n'accélère pas un projet en ajoutant des développeurs et neuf femmes ne font pas un enfant en un mois.
+En travaillant à deux sur le même projet, nous avons quand même eu l'impression de disposer de davantage de ressources mentales comme la discipline, la concentration, l'imagination.
+
+* positif
+** plus de patience, discipline, concentration
+
+*** distractions
+Travailler à deux sur le meme écran met à l'abri des distractions qui generaient l'autre, on ne va pas interrompre son travail pour consulter ses emails ou les dernieres nouvelles. Un minimum de politesse fait qu'on ne le fait pas non plus avec son téléphone.
+
+*** pas de raccourcis honteux
+La tentation des raccourcis un peu honteux est moins forte quand on se sait observé. Seul on peut se contenter de noms de variables trompeurs, mais on n'essaierait pas de convaincre un autre de les laisser. Et puis on aimerait pas donner une mauvaise impression.
+
+*** pas de virtuosité inutile
+On est moins être tenté par le genre de virtuosité qui crée de la complexité qui sert juste à se prouver qu'on la maitrise, ou à explorer les aspects les plus ésotériques de ses outils.
+
+*** meilleure vision des problemes immédiats qu'on va rencontrer
+
+** live code review
+- "the average defect detection rate is only 25 percent for unit testing, 35 percent for function testing, and 45 percent for tegration testing. In contrast, the average effectiveness of design and code inspections are 55 and 60 percent." (Code complete)
+- L'attention aux détails est multipliée par deux. Seul on ne relirait pas deux fois son code.
+- correction rapide de fautes betes (noms de variables, syntaxe)
+- critiques plus facile, moins d'ego ecorné parce que le code appartient aux deux
+- resultat; code plus propre
+
+** bugs plus faciles à trouver
+
+*** modeles mentaux
+Chacun s'oriente avec un modèle mental du systeme, une représentation simplifiée qui permet de réfléchir à l'ensemble sans devoir garder tous les détails dans la tête. Un modèle est nécessairement incomplet, voire faux. Les bugs difficiles à expliquer se produisent justement là ou le modèle mental est le plus approximatif. Un programmeur à la recherche d'un bug apporte avec lui un deuxieme modèle mental, qui peut être assez différent. La confrontation de deux modèles permet de mieux circonscrire les parties du système ou bug pourrait se trouver.
+
+*** live rubber ducking
+expliquer sa pensée à un autre met en évidence les suppositions sur lesquelles on se base, ce qui permet de les examiner et les remettre en cause. C'est le principe qui guide la fameuse technique du rubber ducking, qui consiste à expliquer le problème à un canard en plastique. Le rubber ducking fonctionne évidemment mieux quand le canard écoute vraiment, qu'il pose des questions et apporte ses propres suggestions.
+
+** conception (algorithmes, architecture)
+
+meilleure compréhension de questions compliquées. deux points de vue différents sur le meme probleme. meilleure définition du probleme, meilleur eclairages des problèmes potentiels, plus d'idées et d'intuition pour l'aborder, plus d'expérience avec d'autres problèmes à disposition, plus de connaissances.
+
+** transmission de savoir et exercice de communication
+
+- vim/emacs
+- outils, raccourcis claviers
+- pratiques (plus de petit pas).
+- notion d'élégance et questions de gout
+- manière d'approcher les problèmes
+- manière de structurer le code
+- verbaliser davantage sa réflexion
+- négocier sans s'énerver
+- parfois plus simple de coder un truc que d'essayer de l'expliquer. Ambiguité du language naturel.
+- bon moyen pour expliquer son code à quelqu'un qui va le reprendre.
+- comprendre le code d'une librairie
+
+** apprendre à deux
+C'est toute l'idée derrière gongfu io. Nous connaissons bien mieux javascript maintenant.
+
+** motivation++
+
+- cure impostor syndrome
+- augmente la confiance en soi
+
+
+Nous continuons à travailler sur ce projet après plus d'un an, alors que nous avons chacun plein de projets personnels à l'abandon.
+
+Au dela d'un projet c'est une occasion de se voir, et aussi en quelque sorte un engagement auprès de l'autre, qu'on ne voudrait pas laisser tomber.
+
+
+* négatif
+** les bonnes pratiques ne sont pas automatiquement au rendez-vous
+
+pas de test unitaires
+modules avec responsabilités mal définies 
+continuité pas évidente avec des sessions hebdomadaires.
+problèmes répétés au niveau de la gestion des test fonctionnels et d'intégration (résolu).
+
+
+** toutes les tâches ne se prêtent pas au pair programming
+
+C'est plus confortable de lire un texte tout seul. Evaluer des librairies, lire des modes d'emploi est moins bien à deux.
+
+** lacher son partenaire en allant trop vite (in the zone alone)
+
+Coder peut aussi etre une manière de réfléchir pour trouver une solution. Il arrive qu'en étant absorbé dans une réflexion, on néglige d'expliquer à son partenaire ce qu'on fait pour ne pas perdre le fil, et qu'il reste à regarder sans rien comprendre.
+
+Le pair programming est un bon moyen de transmettre ses connaissances à quelqu'un qui va reprendre son code. Il vaut mieux laisser celui qui connait le moins le code au clavier. S'il n'est pas pilote, il risque d'être submergé par trop d'informations. (expérience à Berne et Olten)
+
+** Demande plus d'énergie
+Peut-être difficile à maintenir sur une longue période
+
+Nous faisons des sessions de deux heures. Est-ce que nous aurions la force de faire ça huit heures par jour?
+
+** triple programming?
+Nous avons fait une ou deux sessions à trois. Le risque de malentendu nous a semblé plus élevé. Deux peuvent se parler sans se préocupper de la participation du troisieme
+
+** un seul committeur
+![commit distribution](/images/commit_distribution.jpg)
+
+
+* L'expérience du remote pair programming
+
+<li class="fragment">Skype (voix uniquement)</li>
+<li class="fragment">Teamviewer</li>
+<li class="fragment">Et le bilan est très positif</li>
+
+** description de teamviewer (partage de la souris se fait naturellement)
+
+** aussi efficace que le physical pair programming.
+** confort, plus facile de passer de l'un à l'autre.
+bilan positif peut-être du à notre setup un peu serré d'habitude (bar + petit laptop)
+si un des deux en remote est dans un bar c'est pas super
+difficulté du setup en pp physique (gestion de l'espace). perte de contrôle du navigateur.
+chacun à son écran, on est confortable, plus facile de passer de l'un à l'autre.
+
+
+** chacun peut chercher de son côté.

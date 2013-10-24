@@ -138,11 +138,11 @@ En travaillant à deux sur le même projet, nous avons quand même eu l'impressi
 -- 
 ## Aspects positifs
 <li class="fragment">Plus de patience, discipline, concentration</li>
+<li class="fragment">Live code review</li>
 <li class="fragment">Bugs plus faciles à trouver</li>
 <li class="fragment">Conception (algorithmes, architecture)</li>
 <li class="fragment">Transmission de savoir et exercice de communication</li>
 <li class="fragment">Apprendre à deux</li>
-<li class="fragment">Live code review (mieux que le rubber ducking)</li>
 <li class="fragment">Motivation++</li>
 
 --
@@ -154,6 +154,7 @@ En travaillant à deux sur le même projet, nous avons quand même eu l'impressi
 <li class="fragment">Les bonnes pratiques ne sont pas automatiquement au rendez-vous</li>
 <li class="fragment">Toutes les tâches ne se prêtent pas au pair programming</li>
 <li class="fragment">Lâcher son partenaire en allant trop vite (in the zone alone)</li>
+<li class="fragment">Demande plus d'énergie</li>
 <li class="fragment">Triple programming?</li>
 <li class="fragment">Un seul committeur</li>
 --
